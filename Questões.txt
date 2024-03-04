@@ -1,0 +1,12 @@
+Essa é a questão um.
+
+...
+
+
+#Abaixo esta o bloco que importa as questões desse arquivo no python
+'''
+with open('Questões.txt', encoding= 'UTF-8') as arquivo: 
+    lines = arquivo.readlines()
+for i in lines:
+    print(i) 
+'''
